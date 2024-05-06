@@ -1,0 +1,292 @@
+img
+{
+	border:0px;
+}
+#clr
+{
+	clear:both;
+	height:0;
+}
+body
+{
+	background:url(../../../templates/Oysterbayrestaurant/images/index_01.png) repeat;
+	margin:0px;
+	font:14px Georgia, "Times New Roman", Times, serif;
+}
+#pageWrapper
+{
+	width:100%;
+	text-align:center;
+	padding:20px 0px;
+}
+#pageContainer
+{
+	width:972px;
+	margin:0px auto;
+	background:url(../../../templates/Oysterbayrestaurant/images/index_06.png) repeat-y;
+}
+#mainWrapper
+{
+	width:auto;
+	background:url(../../../templates/Oysterbayrestaurant/images/index_03.png) no-repeat top;
+}
+#subWrapper
+{
+	width:auto;
+	background:url(../../../templates/Oysterbayrestaurant/images/index_07.png) no-repeat bottom;
+	text-align:center;
+	padding:20px 0px;
+}
+#contentPanel
+{
+	width:auto;
+	width:932px;
+	text-align:left;
+	min-height:700px;
+	margin:0px auto;
+}
+#headWrapper
+{
+	width:auto;
+	height:154px;
+	position:;
+}
+#logo
+{
+	width:333px;
+	height:233px;
+	background:url(../../../templates/Oysterbayrestaurant/images/logo.png) no-repeat;
+	position:absolute;
+	left: 295px;
+	top:10px;
+	cursor:pointer;
+	z-index:100;
+}
+#swfs
+{
+	width:auto;
+	height:460px;
+	background:#fff;
+}
+#menuWrapper
+{
+	width:950px;
+	top:120px;
+	position:absolute;
+}
+#linkWrapper_1
+{
+	width:300px;
+	float:left;
+	margin-left:10px;
+}
+#linkWrapper_2
+{
+	float:right;
+	width:300px;
+	margin-right:25px;
+}
+#subLinks_1
+{
+	width:;
+	float:left;
+	margin:0px 47px;
+}
+#subLinks_1 a
+{
+	color:#666666;
+	text-decoration:none;
+}
+#containerPanel
+{
+	width:auto;
+}
+#mainContentPanel
+{
+	text-align:left;
+}
+#subContentPanel
+{
+	width:auto;
+	color:#666666;
+}
+#mainContentPanel #subContentPanel h4
+{
+	margin:0px;
+	padding:0px;
+	font-size:18px;
+	font-weight:normal;
+}
+.contentheading, .componentheading
+{
+	font-size:24px;
+	color:#c67323;
+}
+.navi
+{
+	width:250px;
+	float:right;
+	background:none;
+	color:#666666;
+}
+
+.navi ul
+{
+	margin:10px 0px 10px 20px;
+	list-style:outside;
+	padding:0px;
+}
+#navigationPanel
+{
+	width:auto;
+	margin-left:20px;
+	padding-top:20px;
+}
+#navigationPanel p
+{
+	margin:0px;
+	padding:0px 0px 20px;
+}
+#navigation1
+{
+	width:240px;
+	float:left;
+	margin:0px 0px 0px 25px;
+	color:#666666;
+	text-align:center;
+}
+#navigation1 ul
+{
+	margin:10px 0px 10px 20px;
+	list-style:outside;
+	padding:0px;
+}
+#navigation1 h4
+{
+	margin:0px;
+	padding:0px;
+	font-size:18px;
+	font-weight:normal;
+	color:#c67323;
+}
+.navi h4
+{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	font-size:18px;
+	font-weight:normal;
+	color:#c67323;
+}
+.navi h3
+{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	font-size:18px;
+	font-weight:normal;
+	color:#c67323;
+	text-align:center;
+}
+#phocagallery .pgcenter .sectiontablefooter
+{
+	color:#c67323;
+	text-decoration:none;
+}
+#phocagallery .pgcenter .sectiontablefooter a
+{
+	color:#c67323;
+	text-decoration:none;
+}
+#phocagallery .pgcenter .sectiontablefooter a .pagenav 
+{
+	color:#c67323;
+}
+#menuLinksWrapperExtended
+{
+	width:auto;
+	background:none;
+}
+#menuLinksWrapperExtended ul,li
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#menuLinksWrapperExtended .menu sf-menu sf-horizontal sf-js-enabled sf-shadow
+{
+	margin:0px 0px 0px 460px;
+}
+#menuLinksWrapperExtended ul li
+{
+	float:right;
+	list-style:none;
+	margin:0px 10px;
+}
+#menuLinksWrapperExtended ul li a
+{
+	display:block;
+	padding:5px 20px;
+	text-decoration:none;
+	color:#666666;
+}
+#primaryheader
+{
+	width:auto;
+	background:url(../../../templates/Oysterbayrestaurant/images/logo2.png) no-repeat;
+}
+#parentdropmenuWrapper
+{
+	position:relative;
+	width:auto;
+	z-index:100;
+}
+#rootdropmenuWrapper
+{
+	position:absolute;
+	left:0px;
+	top:27px;
+	background:#fff;
+	width:240px;
+	display:none;
+}
+#parentdropmenuWrapper #rootdropmenuWrapper ul,li
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#parentdropmenuWrapper #rootdropmenuWrapper ul li
+{
+	float:none;
+	margin:0px;
+}
+#parentdropmenuWrapper #rootdropmenuWrapper ul li a
+{
+	display:block;
+	color:#666666;
+	border-bottom:1px dotted #f0f0f0;
+	padding:10px 20px;
+}
+#parentdropmenuWrapper #rootdropmenuWrapper ul li a:hover
+{
+	color:#000;
+}
+/*
+     FILE ARCHIVED ON 04:56:34 Dec 31, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:51:54 May 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.298
+  exclusion.robots: 0.244
+  exclusion.robots.policy: 0.23
+  cdx.remote: 0.071
+  esindex: 0.015
+  LoadShardBlock: 118.515 (3)
+  PetaboxLoader3.datanode: 130.754 (4)
+  load_resource: 184.028
+  PetaboxLoader3.resolve: 79.308
+*/
