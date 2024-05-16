@@ -239,7 +239,22 @@ body
 	width:auto;
 	z-index:100;
 }
+#parentdropmenuWrapper2
+{
+	position:relative;
+	width:auto;
+	z-index:100;
+}
 #rootdropmenuWrapper
+{
+	position:absolute;
+	left:0px;
+	top:27px;
+	background:#fff;
+	width:240px;
+	display:none;
+}
+#rootdropmenuWrapper2
 {
 	position:absolute;
 	left:0px;
@@ -254,7 +269,18 @@ body
 	padding:0px;
 	list-style:none;
 }
+#parentdropmenuWrapper2 #rootdropmenuWrapper2 ul,li
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
 #parentdropmenuWrapper #rootdropmenuWrapper ul li
+{
+	float:none;
+	margin:0px;
+}
+#parentdropmenuWrapper2 #rootdropmenuWrapper2 ul li
 {
 	float:none;
 	margin:0px;
@@ -264,9 +290,20 @@ body
 	display:block;
 	color:#666666;
 	border-bottom:1px dotted #f0f0f0;
-	padding:10px 20px;
+	/*padding:10px 20px;*/
+}
+#parentdropmenuWrapper2 #rootdropmenuWrapper2 ul li a
+{
+	display:block;
+	color:#666666;
+	border-bottom:1px dotted #f0f0f0;
+	/*padding:10px 20px;*/
 }
 #parentdropmenuWrapper #rootdropmenuWrapper ul li a:hover
+{
+	color:#000;
+}
+#parentdropmenuWrapper2 #rootdropmenuWrapper2 ul li a:hover
 {
 	color:#000;
 }
